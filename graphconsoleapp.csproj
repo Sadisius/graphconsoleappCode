@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="microsoft.extensions.configuration" Version="5.0.0" />
+    <PackageReference Include="microsoft.extensions.configuration.fileextensions" Version="5.0.0" />
+    <PackageReference Include="microsoft.extensions.configuration.json" Version="5.0.0" />
+    <PackageReference Include="microsoft.graph" Version="3.30.0" />
+    <PackageReference Include="microsoft.identity.client" Version="4.30.1" />
+  </ItemGroup>
+
+</Project>
